@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: lightgreen;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+h1{
+    color: rgb(29, 151, 221);
+}
+input,button{
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+#message-input{
+    width: 95%;
+}
+#send-button{
+    width: 5%;
+}
+.message-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+button{
+    color: white;
+    font-weight: 700;
+    background-color: rgb(123, 203, 230);
+}
+.chatroom-container{
+    display: none;
+    
+}
+.form-username{
+    display: block;
+}
+.form-username input{
+    margin: 10px;
+}
+.form-username button{
+    margin: 10px;
+}
+select{
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+.messages{
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+    background-color: #e1e1e1;
+}
+.message{
+    background-color: #DCF8C6;
+    width: fit-content;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    font-size: 1.5rem;
+}
+.sent{
+    align-self: flex-end;
+}
+.chatroom-header{
+    background-color: lightgreen;
+    color: white;
+    font-size: 2rem;
+    padding: 0.2rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border-radius: 20px;
+    box-shadow: 1px 2px 2px ;
+}
+.photo{
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
